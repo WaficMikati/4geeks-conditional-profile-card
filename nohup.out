@@ -1,0 +1,413 @@
+
+> vanillajs-hello@1.0.0 start
+> webpack-dev-server --mode development --port 3000
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/siku/code/4geeks/projects/profile-card
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /index.html
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+ DONE  Compiled successfully in 1249ms15:19:03
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:22:16
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 267ms15:22:16
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:22:25
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 248ms15:22:26
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:22:29
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 171ms15:22:29
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:22:53
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 243ms15:22:53
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:23:07
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 266ms15:23:07
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:23:21
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 275ms15:23:22
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:32:21
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 280ms15:32:22
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:35:29
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 273ms15:35:30
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:35:56
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 292ms15:35:56
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:35:56
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /
+ DONE  Compiled successfully in 103ms15:35:57
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:36:13
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 115ms15:36:13
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:36:20
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 97ms15:36:20
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:36:52
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ ERROR  Failed to compile with 1 errors15:36:53
+
+ error  in ./src/js/app.js
+
+Syntax Error: SyntaxError: /home/siku/code/4geeks/projects/profile-card/src/js/app.js: Unexpected token, expected "," (39:76)
+
+  37 |           <h2>${variables.role}</h2>
+  38 |           <h3>${variables.city}, ${variables.country}</h3>
+> 39 |           <ul class="position-${(variables.socialMediaPosition.toLowerCase()}">
+     |                                                                             ^
+  40 |             <li><a href="${
+  41 |               variables.twitter
+  42 |             }"><i class="fab fa-twitter"></i></a></li>
+
+
+ @ multi ./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js ./node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js ./src/js/app.js
+
+[31m✖[39m [90m｢wdm｣[39m: 
+ERROR in ./src/js/app.js
+Module Error (from ./node_modules/eslint-loader/index.js):
+
+/home/siku/code/4geeks/projects/profile-card/src/js/app.js
+  39:77  error  Parsing error: Unexpected token, expected ","
+
+  37 |           <h2>${variables.role}</h2>
+  38 |           <h3>${variables.city}, ${variables.country}</h3>
+> 39 |           <ul class="position-${(variables.socialMediaPosition.toLowerCase()}">
+     |                                                                             ^
+  40 |             <li><a href="${
+  41 |               variables.twitter
+  42 |             }"><i class="fab fa-twitter"></i></a></li>
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/js/app.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/siku/code/4geeks/projects/profile-card/src/js/app.js: Unexpected token, expected "," (39:76)
+
+  37 |           <h2>${variables.role}</h2>
+  38 |           <h3>${variables.city}, ${variables.country}</h3>
+> 39 |           <ul class="position-${(variables.socialMediaPosition.toLowerCase()}">
+     |                                                                             ^
+  40 |             <li><a href="${
+  41 |               variables.twitter
+  42 |             }"><i class="fab fa-twitter"></i></a></li>
+    at Parser._raise (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:541:17)
+    at Parser.raiseWithData (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:534:17)
+    at Parser.raise (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:495:17)
+    at Parser.unexpected (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:3550:16)
+    at Parser.expect (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:3524:28)
+    at Parser.parseParenAndDistinguishExpression (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:12100:14)
+    at Parser.parseExprAtom (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:11721:23)
+    at Parser.parseExprSubscripts (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:11414:23)
+    at Parser.parseUpdate (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:11394:21)
+    at Parser.parseMaybeUnary (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:11369:23)
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+ WAIT  Compiling...15:36:57
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 173ms15:36:57
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:36:57
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 93ms15:36:57
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:38:21
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 242ms15:38:21
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:39:07
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 264ms15:39:07
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:39:28
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 269ms15:39:29
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:43:08
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ ERROR  Failed to compile with 1 errors15:43:08
+
+ error  in ./src/js/app.js
+
+Module build failed (from ./node_modules/eslint-loader/index.js):
+Error: unreachable
+    at CodePathState.popChoiceContext (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-state.js:444:23)
+    at processCodePathToExit (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:434:19)
+    at CodePathAnalyzer.leaveNode (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:627:9)
+    at Traverser.leave [as _leave] (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/linter.js:868:28)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:155:18)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+
+ @ multi ./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js ./node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js ./src/js/app.js
+
+[31m✖[39m [90m｢wdm｣[39m: 
+ERROR in ./src/js/app.js
+Module build failed (from ./node_modules/eslint-loader/index.js):
+Error: unreachable
+    at CodePathState.popChoiceContext (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-state.js:444:23)
+    at processCodePathToExit (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:434:19)
+    at CodePathAnalyzer.leaveNode (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:627:9)
+    at Traverser.leave [as _leave] (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/linter.js:868:28)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:155:18)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+ WAIT  Compiling...15:43:08
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ ERROR  Failed to compile with 1 errors15:43:09
+
+ error  in ./src/js/app.js
+
+Module build failed (from ./node_modules/eslint-loader/index.js):
+Error: unreachable
+    at CodePathState.popChoiceContext (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-state.js:444:23)
+    at processCodePathToExit (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:434:19)
+    at CodePathAnalyzer.leaveNode (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:627:9)
+    at Traverser.leave [as _leave] (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/linter.js:868:28)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:155:18)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+
+ @ multi ./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js ./node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js ./src/js/app.js
+
+[31m✖[39m [90m｢wdm｣[39m: 
+ERROR in ./src/js/app.js
+Module build failed (from ./node_modules/eslint-loader/index.js):
+Error: unreachable
+    at CodePathState.popChoiceContext (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-state.js:444:23)
+    at processCodePathToExit (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:434:19)
+    at CodePathAnalyzer.leaveNode (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/code-path-analysis/code-path-analyzer.js:627:9)
+    at Traverser.leave [as _leave] (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/linter.js:868:28)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:155:18)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:144:34)
+    at Traverser._traverse (/home/siku/code/4geeks/projects/profile-card/node_modules/eslint/lib/util/traverser.js:147:30)
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+ WAIT  Compiling...15:43:23
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 280ms15:43:23
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:45:40
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 274ms15:45:41
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:46:27
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 275ms15:46:28
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:47:40
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 286ms15:47:41
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:47:41
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 96ms15:47:41
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:47:54
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 189ms15:47:54
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:48:12
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 248ms15:48:12
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:50:22
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 272ms15:50:22
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:50:22
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 94ms15:50:23
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:50:47
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ ERROR  Failed to compile with 1 errors15:50:47
+
+ error  in ./src/js/app.js
+
+Syntax Error: SyntaxError: /home/siku/code/4geeks/projects/profile-card/src/js/app.js: Unterminated string constant. (45:34)
+
+  43 |             }"><i class="fab fa-twitter"></i></a></li>
+  44 |             <li><a href="${
+> 45 |               variables.github || "https://github.com/4geeksacademy
+     |                                   ^
+  46 |             }"><i class="fab fa-github"></i></a></li>
+  47 |             <li><a href="${
+  48 |               variables.linkedin
+
+
+ @ multi ./node_modules/error-overlay-webpack-plugin/lib/entry-basic.js ./node_modules/error-overlay-webpack-plugin/lib/entry-devserver.js ./src/js/app.js
+
+[31m✖[39m [90m｢wdm｣[39m: 
+ERROR in ./src/js/app.js
+Module Error (from ./node_modules/eslint-loader/index.js):
+
+/home/siku/code/4geeks/projects/profile-card/src/js/app.js
+  45:35  error  Parsing error: Unterminated string constant.
+
+  43 |             }"><i class="fab fa-twitter"></i></a></li>
+  44 |             <li><a href="${
+> 45 |               variables.github || "https://github.com/4geeksacademy
+     |                                   ^
+  46 |             }"><i class="fab fa-github"></i></a></li>
+  47 |             <li><a href="${
+  48 |               variables.linkedin
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+ERROR in ./src/js/app.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/siku/code/4geeks/projects/profile-card/src/js/app.js: Unterminated string constant. (45:34)
+
+  43 |             }"><i class="fab fa-twitter"></i></a></li>
+  44 |             <li><a href="${
+> 45 |               variables.github || "https://github.com/4geeksacademy
+     |                                   ^
+  46 |             }"><i class="fab fa-github"></i></a></li>
+  47 |             <li><a href="${
+  48 |               variables.linkedin
+    at Parser._raise (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:541:17)
+    at Parser.raiseWithData (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:534:17)
+    at Parser.raise (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:495:17)
+    at Parser.readString (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:2900:20)
+    at Parser.getTokenFromCode (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:2536:14)
+    at Parser.nextToken (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:2009:12)
+    at Parser.next (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:1915:10)
+    at Parser.parseExprOp (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:11239:14)
+    at Parser.parseExprOps (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:11196:17)
+    at Parser.parseMaybeConditional (/home/siku/code/4geeks/projects/profile-card/node_modules/@babel/parser/lib/index.js:11160:23)
+[34mℹ[39m [90m｢wdm｣[39m: Failed to compile.
+ WAIT  Compiling...15:50:54
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 215ms15:50:54
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:50:54
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 86ms15:50:54
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:51:01
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 81ms15:51:01
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:51:29
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 238ms15:51:30
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:51:30
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 90ms15:51:30
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:51:49
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 244ms15:51:49
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:51:49
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 97ms15:51:49
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+ WAIT  Compiling...15:52:35
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiling...
+ DONE  Compiled successfully in 123ms15:52:35
+
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
